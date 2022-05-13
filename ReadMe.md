@@ -1,4 +1,4 @@
-Instructions to setup the Project:
+Instructions to setup the Project:<br/>
 1. To run the project we need Python 3.6>=, Spark 3.2.1 (PySpark 3.2.1) & Kafka <br/>
     Python Installation Guide : https://realpython.com/installing-python/ <br/>
     Spark Installation Guide : https://spark.apache.org/docs/latest/api/python/getting_started/install.html <br/>
@@ -7,7 +7,6 @@ Instructions to setup the Project:
     Note : I am using mongodb to ingest all the raw records and for that need to keep two jar file in the jar folder in spark home directory: <br/>
             i.  mongo-java-driver-3.12.11.jar <br/>
             ii. mongo-spark-connector-10.0.1.jar <br/>
-     <br/>
     I have kept this jars under lib folder in project. <br/>
  <br/>
 2. Next step is to create a kafka-topic named "BitCoinTweets" for that first start zookeeper and kafka broker service (https://kafka.apache.org/documentation/#quickstart_startserver). <br/>
