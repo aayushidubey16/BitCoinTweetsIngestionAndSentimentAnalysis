@@ -1,5 +1,5 @@
 Instructions to setup the Project:
-1. To run the project we need Python 3.6>=, Spark 3.2.1 (PySpark 3.2.1) & Kafka
+1. To run the project we need Python 3.6>=, Spark 3.2.1 (PySpark 3.2.1) & Kafka <br/>
     Python Installation Guide : https://realpython.com/installing-python/
     Spark Installation Guide : https://spark.apache.org/docs/latest/api/python/getting_started/install.html
     Kafka Installation Guide : https://kafka.apache.org/quickstart, https://www.geeksforgeeks.org/how-to-install-and-run-apache-kafka-on-windows/
